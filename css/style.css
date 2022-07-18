@@ -1,0 +1,340 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+/* USE FOR ALL CLASSES */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* BODY */
+body{ 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+.container{
+    width: 1700px;
+    margin: 0 auto;
+    border: 0.1px solid #919090;
+}
+
+/* Шапка сайту */
+.header{
+    border-bottom: 0.1px solid #919090;
+    margin-top: ;
+    display: flex;
+    height: 80px;
+    background-color:#FFFFFF;
+}
+.logo{
+    width: 145px;
+    height: 35px;
+    margin: 25px 95px 25px 215px;
+}
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+.colour-web{
+    color: #2196F3;
+}
+
+.top-menu li{
+    display: inline-block;
+    margin-top: 32px;
+    margin-right: 50px;
+}
+.style-menu{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.color-studio{
+    color: #2196F3;
+}
+
+.mail{
+    display: inline-block;
+    width: 135px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 330px;
+}
+.text-mail{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.tel{
+    display: inline-block;
+    width: 125px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+.text-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* Частина сайту з темним фоном */
+
+.dark-part{
+    width: 1700px;
+    height: 600px;
+    background: #2F303A;
+}
+.h1-box{
+    display: flex;
+    
+}
+.h1{
+    display: inline-block;
+    width: 700px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 210px 500px 30px 500px;
+}
+
+.button{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+.text-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* Частина з блочним текстом */
+.container2{
+    background-color: #FFFFFF;
+    width: 1700px;
+}
+.text-box{
+    display: inline-block;
+    width: 1170px;
+    margin: 90px 300px;
+}
+.inform-text{
+    display: inline-block;
+    width: 270px;
+}
+
+.h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.grey-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+/* Чим ми займаємося (картинки 370х294) */
+
+.what-we-img{
+    width: 1200px;
+    height: 400px;
+    margin: 90px 265px 100px 265px ;
+}
+.list_img1{
+    display: inline-block;
+    padding-bottom: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.list_img2 {
+    display: inline-block;
+    padding-bottom: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.list_img3 {
+    display: inline-block;
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+.h2-we-do{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Наша команда */
+
+.team-box{
+    width: 1700px;
+    height: 700px;
+    background-color: #F5F4FA;;
+}
+
+.h2_our_team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.list_team1{
+    display: inline-block;
+    width: 270px;
+    height: 370px;
+    margin-left: 265px;
+    margin-right: 30px;
+    background: #FFFFFF;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.list_team2 {
+    display: inline-block;
+    width: 270px;
+    height: 370px;
+    margin-right: 30px;
+    background: #FFFFFF;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.list_team3 {
+    display: inline-block;
+    width: 270px;
+    height: 370px;
+    margin-right: 30px;
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.list_team4 {
+    display: inline-block;
+    width: 270px;
+    height: 370px;
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.h3-team{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.specialty{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Футер + Лого */
+
+footer
+{
+    width: 1700px;
+    height: 250px;
+    background: #2F303A;
+    margin-top: 10px;  
+}
+.logo2{
+    width: 145px;
+    height: 35px;
+    padding-left: 215px;
+    padding-top: 60px;  
+}
+.logo2-link{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address{
+    padding-left: 215px;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mail-footer{
+    padding-left: 215px;
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer{
+    padding-left: 215px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
