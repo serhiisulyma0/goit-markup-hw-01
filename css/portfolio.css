@@ -1,0 +1,156 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* USE FOR ALL CLASSES */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* Шапка сайту */
+.header {
+    border-bottom: 0.1px solid #919090;
+    margin-top: 0;
+    display: flex;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    margin: 25px 95px 25px 215px;
+}
+
+.logo-link {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.colour-web {
+    color: #2196F3;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin-top: 32px;
+    margin-right: 50px;
+}
+
+.style-menu {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.color-studio {
+    color: #2196F3;
+}
+
+.mail {
+    display: inline-block;
+    width: 135px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 330px;
+}
+
+.text-mail {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.tel {
+    display: inline-block;
+    width: 125px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.text-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* Main content*/
+.main-container {
+    margin: 94px 215px;   
+    border: #212121; 
+}
+.menu-container{
+    margin: 94px 494px 0 494px;
+    /* margin: auto; */
+    padding: 0;
+    display: inline;
+}
+.button{
+    padding: 6px 22px;
+    margin: auto;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-all {
+    padding: 6px 22px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+} 
+
+.img-box{
+    width: 1400px;
+    margin: 0 215px 0 215px;  
+}
+
+.img-list li{
+    display: inline-block;   
+}
+.li-boxes{
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 30px 0 0 30px;
+    box-sizing: border-box;
+}
