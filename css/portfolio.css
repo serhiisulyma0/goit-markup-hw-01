@@ -15,31 +15,26 @@
 
 /* BODY */
 body {
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
 }
 
-.container {
-    margin: 0 auto;
-}
-
 /* Шапка сайту */
 .header {
     border-bottom: 0.1px solid #919090;
-    margin-top: 0;
     display: flex;
     height: 80px;
     background-color: #FFFFFF;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
     margin: 25px 95px 25px 215px;
 }
 
 .logo-link {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
@@ -50,13 +45,31 @@ body {
     color: #2196F3;
 }
 
-.top-menu li {
-    display: inline-block;
-    margin-top: 32px;
-    margin-right: 50px;
+.top-menu {
+    margin: 32px 331px 32px 94px;
 }
 
-.style-menu {
+.navigation li {
+    display: inline;
+    text-align: center;
+}
+
+.navigation a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    display: inline-block;
+    width: 100px;
+}
+
+.navigation a:hover {
+    border-radius: 6px 5px;
+    background-color: #c9cab3;
+}
+
+.style-nav {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
@@ -68,28 +81,28 @@ body {
     color: #2196F3;
 }
 
-.mail {
+.mail-tel {
+    margin: 32px 215px 32px 0;
+}
+
+.contacts-nav li {
+    display: inline;
+    text-align: center;
+}
+
+.contacts-nav a {
     display: inline-block;
-    width: 135px;
-    height: 20px;
-    margin-top: 32px;
-    margin-left: 330px;
+    width: 150px;
 }
 
 .text-mail {
+    padding-right: 50px;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
-}
 
-.tel {
-    display: inline-block;
-    width: 125px;
-    height: 20px;
-    margin-top: 32px;
-    margin-left: 50px;
 }
 
 .text-tel {
@@ -102,55 +115,118 @@ body {
 
 /* Main content*/
 .main-container {
-    margin: 94px 215px;   
-    border: #212121; 
+    width: 1200px;
+    margin: 94px auto;
+    justify-content: center;
+    padding: 0;
 }
 .menu-container{
-    margin: 94px 494px 0 494px;
-    /* margin: auto; */
-    padding: 0;
-    display: inline;
+    display: flex;   
+    justify-content: center;
+    margin-bottom: 23px;
 }
-.button{
+.button {
+    margin-left: 4px;
+    margin-right: 4px;
+    background: #F5F4FA;
+    border-radius: 4px;
     padding: 6px 22px;
-    margin: auto;
-    border: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    background: #F5F4FA;
-    border-radius: 4px;
+}
+button:hover {
+    cursor: pointer;
 }
 
 .button-all {
+    margin-right: 4px;
     padding: 6px 22px;
-    margin: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     color: #FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
 } 
 
-.img-box{
-    width: 1400px;
-    margin: 0 215px 0 215px;  
-}
-
 .img-list li{
-    display: inline-block;   
-}
-.li-boxes{
-    width: 370px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    margin: 30px 0 0 30px;
-    box-sizing: border-box;
+}
+.h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding: 20px 24px 2px 24px;
+}
+.p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding: 2px 24px 20px 24px;
+}
+
+/* FOOTER */
+footer {
+    height: 252px;
+    background: #2F303A;
+}
+
+.logo-footer {
+    padding: 60px 0 10px 215px;
+}
+
+.studio-footer {
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    margin: 10px 0 60px 215px;
+}
+
+.address {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
